@@ -1,0 +1,47 @@
+# a = {10.20,30,40}
+# a.add(50)
+# #a.update({1,2})
+# a |= {1,2}
+# #a.remove(100)
+# a.discard(10)
+# print(a)
+
+
+a = {10,20,30,40}
+b = {30,40,50,60}
+#mathematical operations
+
+print(a.union(b))# gaertianeba
+print(a | b) # shortcut
+print(a.intersection(b)) # saerto elementebi
+print(a & b)#shortcut
+print(a.difference(b))# elementebi romlebic mxolod a shia
+print(a - b)#shortcut
+print(b - a)#shortcut
+print(a.symmetric_difference(b))#gvachvenebs elementebs romlebic ar aris saerto orivestivs
+print(a ^ b)
+
+a = {30,40}
+b = {30,40,50,60}
+
+print(a.issubset(b))#tu a sheicavs yvela b-s elemenets
+print(b.issuperset(a))#tu b sheicavs yvela a-s elemenets
+
+print(a.isdisjoint(b))#roca orives sxva da sxva elementebi aqvs
+
+#SETS:Unordered,Unique,Not indexed,Mutable
+
+#add
+#update
+#discard
+
+#MATH
+#Union
+#intersection
+#difference
+#symmetric_difference
+
+#Relationships
+#issubet
+#issuperset
+#isdisjoint
