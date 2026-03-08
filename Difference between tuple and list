@@ -1,1 +1,8 @@
+# my_tuple = (10,30,20,10 )
+# my_tuple[2] = 4
+# print(my_tuple)
 
+
+# my_tuplea = [10,30,20,10]
+# my_tuplea[2] = 4
+# print(my_tuplea)
